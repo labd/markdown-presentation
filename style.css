@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+body {
+  font-family: "TT Commons Pro Exp", Helvetica Neue, arial, sans-serif;
+}
+.remark-code,
+.remark-inline-code {
+  font-family: "Ubuntu Mono";
+}
+.intro {
+  background-image: url("./background.svg");
+  background-size: cover;
+}
+.intro h1 {
+  background-color: white;
+  padding: 2rem;
+}
+h1,
+h2 {
+  margin-bottom: 4rem;
+}
+
+blockquote {
+  border-left: 0.3em solid #ccc;
+  padding: 0 15px;
+  font-style: italic;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+code {
+  white-space: pre-wrap !important;
+}
